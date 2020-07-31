@@ -1,2 +1,10 @@
-﻿  QtWidgetsApplication1.cpp
+﻿  Reading Qt configuration (E:\qt\5.12.5\msvc2017_64\bin\qmake.exe)
+  uic QtWidgetsApplication1.ui
+  rcc QtWidgetsApplication1.qrc
+  moc QtWidgetsApplication1.h
+   RCC: Warning: No resources in 'G:\Private\Git\QtWidgetsApplication1\QtWidgetsApplication1.qrc'.
+  main.cpp
+  QtWidgetsApplication1.cpp
+  qrc_QtWidgetsApplication1.cpp
+  moc_QtWidgetsApplication1.cpp
   QtWidgetsApplication1.vcxproj -> G:\Private\Git\QtWidgetsApplication1\x64\Debug\QtWidgetsApplication1.exe

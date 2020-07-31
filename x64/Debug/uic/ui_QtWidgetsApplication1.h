@@ -27,6 +27,7 @@ public:
     QWidget *centralWidget;
     QLabel *label;
     QPushButton *imagefind;
+    QPushButton *closevideobtn;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -35,7 +36,7 @@ public:
     {
         if (QtWidgetsApplication1Class->objectName().isEmpty())
             QtWidgetsApplication1Class->setObjectName(QString::fromUtf8("QtWidgetsApplication1Class"));
-        QtWidgetsApplication1Class->resize(789, 608);
+        QtWidgetsApplication1Class->resize(672, 720);
         centralWidget = new QWidget(QtWidgetsApplication1Class);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         label = new QLabel(centralWidget);
@@ -43,11 +44,14 @@ public:
         label->setGeometry(QRect(40, 20, 581, 461));
         imagefind = new QPushButton(centralWidget);
         imagefind->setObjectName(QString::fromUtf8("imagefind"));
-        imagefind->setGeometry(QRect(690, 510, 75, 31));
+        imagefind->setGeometry(QRect(180, 600, 75, 31));
+        closevideobtn = new QPushButton(centralWidget);
+        closevideobtn->setObjectName(QString::fromUtf8("closevideobtn"));
+        closevideobtn->setGeometry(QRect(320, 600, 75, 31));
         QtWidgetsApplication1Class->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(QtWidgetsApplication1Class);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 789, 23));
+        menuBar->setGeometry(QRect(0, 0, 672, 23));
         QtWidgetsApplication1Class->setMenuBar(menuBar);
         mainToolBar = new QToolBar(QtWidgetsApplication1Class);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -66,6 +70,7 @@ public:
         QtWidgetsApplication1Class->setWindowTitle(QApplication::translate("QtWidgetsApplication1Class", "QtWidgetsApplication1", nullptr));
         label->setText(QApplication::translate("QtWidgetsApplication1Class", "test", nullptr));
         imagefind->setText(QApplication::translate("QtWidgetsApplication1Class", "\346\237\245\346\211\276", nullptr));
+        closevideobtn->setText(QApplication::translate("QtWidgetsApplication1Class", "\345\205\263\351\227\255", nullptr));
     } // retranslateUi
 
 };

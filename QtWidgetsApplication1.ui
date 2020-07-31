@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>789</width>
-    <height>608</height>
+    <width>672</width>
+    <height>720</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,8 +30,8 @@
    <widget class="QPushButton" name="imagefind">
     <property name="geometry">
      <rect>
-      <x>690</x>
-      <y>510</y>
+      <x>180</x>
+      <y>600</y>
       <width>75</width>
       <height>31</height>
      </rect>
@@ -40,13 +40,26 @@
      <string>查找</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="closevideobtn">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>600</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>关闭</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>789</width>
+     <width>672</width>
      <height>23</height>
     </rect>
    </property>
