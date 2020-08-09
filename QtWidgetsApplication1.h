@@ -16,21 +16,4 @@ public:
 private:
     Ui::QtWidgetsApplication1Class ui;
 };
-class PersonInfo
-{
-public:
-	PersonInfo();
-	~PersonInfo();
-   
-
-private:
-
-};
-
-PersonInfo::PersonInfo()
-{
-}
-
-PersonInfo::~PersonInfo()
-{
-}
+ 

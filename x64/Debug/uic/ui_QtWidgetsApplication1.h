@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'QtWidgetsApplication1.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.13.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -51,7 +51,7 @@ public:
         QtWidgetsApplication1Class->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(QtWidgetsApplication1Class);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 672, 23));
+        menuBar->setGeometry(QRect(0, 0, 672, 18));
         QtWidgetsApplication1Class->setMenuBar(menuBar);
         mainToolBar = new QToolBar(QtWidgetsApplication1Class);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -67,10 +67,10 @@ public:
 
     void retranslateUi(QMainWindow *QtWidgetsApplication1Class)
     {
-        QtWidgetsApplication1Class->setWindowTitle(QApplication::translate("QtWidgetsApplication1Class", "QtWidgetsApplication1", nullptr));
-        label->setText(QApplication::translate("QtWidgetsApplication1Class", "test", nullptr));
-        imagefind->setText(QApplication::translate("QtWidgetsApplication1Class", "\346\237\245\346\211\276", nullptr));
-        closevideobtn->setText(QApplication::translate("QtWidgetsApplication1Class", "\345\205\263\351\227\255", nullptr));
+        QtWidgetsApplication1Class->setWindowTitle(QCoreApplication::translate("QtWidgetsApplication1Class", "QtWidgetsApplication1", nullptr));
+        label->setText(QCoreApplication::translate("QtWidgetsApplication1Class", "test", nullptr));
+        imagefind->setText(QCoreApplication::translate("QtWidgetsApplication1Class", "\346\237\245\346\211\276", nullptr));
+        closevideobtn->setText(QCoreApplication::translate("QtWidgetsApplication1Class", "\345\205\263\351\227\255", nullptr));
     } // retranslateUi
 
 };

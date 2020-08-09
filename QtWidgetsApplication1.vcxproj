@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F6CD6E29-FB52-42AA-8D26-66CD80BF8314}</ProjectGuid>
     <Keyword>QtVS_v303</Keyword>
-    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.18362.0</WindowsTargetPlatformVersion>
     <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
   </PropertyGroup>
@@ -43,15 +43,15 @@
     <Import Project="$(QtMsBuild)\qt_defaults.props" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <IncludePath>G:\Private\Git\QtWidgetsApplication1\sf6.0_windows\include;E:\FaceProject\opencv\build\include\opencv2;E:\FaceProject\opencv\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>G:\Private\Git\QtWidgetsApplication1\sf6.0_windows\lib\x64;E:\FaceProject\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Git\cmproject\QtOpenCv\QtOpenCv\sf6.0_windows\include;D:\openCV\openCV\build\include\opencv2;D:\openCV\openCV\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Git\cmproject\QtOpenCv\QtOpenCv\sf6.0_windows\lib\x64;D:\openCV\openCV\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Link>
       <AdditionalDependencies>opencv_world440d.lib;SeetaFaceDetector600d.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>G:\Private\Git\QtWidgetsApplication1\sf6.0_windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\Git\cmproject\QtOpenCv\QtOpenCv\sf6.0_windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">

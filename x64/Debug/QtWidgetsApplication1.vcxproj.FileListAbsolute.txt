@@ -1,2 +1,4 @@
 G:\Private\Git\QtWidgetsApplication1\x64\Debug\QtWidgetsApplication1.exe
 G:\Private\Git\QtWidgetsApplication1\x64\Debug\QtWidgetsApplication1.pdb
+D:\Git\cmproject\QtOpenCv\QtOpenCv\x64\Debug\QtWidgetsApplication1.exe
+D:\Git\cmproject\QtOpenCv\QtOpenCv\x64\Debug\QtWidgetsApplication1.pdb
